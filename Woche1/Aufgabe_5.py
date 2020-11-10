@@ -14,7 +14,8 @@ h = int(input("Wie hoch soll die Tabelle sein?"))
 
 id = int(input("Welche Zellenposition soll ausgegeben werden?"))
 
-Zeile = id // b
-Spalte = id % b
+//Aufgabenstellung 
+Zeile = id // b + 1
+Spalte = id % b + 1 
 
 print(f"Zeile: {Zeile} \t Spalte: {Spalte}")
