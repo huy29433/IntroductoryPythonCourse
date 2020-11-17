@@ -12,3 +12,5 @@ else:
     print(f"{year} ist kein Schaltjahr")
 
 # Hier ist Redundanz vorhanden
+
+# aber keine allzu schlimme. Geht aber tatsächlich kürzer, siehe andere Version.
