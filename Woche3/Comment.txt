@@ -1,0 +1,14 @@
+Ein paar Fragen zu den Aufgaben habe ich noch:
+    Aufgabe 1:
+        Warum spezielle Version für nicht-reelle Lösungen?
+        -> Grund math/cmath Modul?
+
+        Überprüfung der Eingabe über "try-except" ok? Oder wie wäre das vorgestellt?
+        Hiermit würde ja alles was nicht in float konvertierbar ist einen Fehler werfen -> Unsinnige Eingaben ignoriert.
+        Einziges Problem: Komplexe Zahlen und Brüche können nicht eingegeben werden.
+        Brüche als Eingabe müssten extra gehandhabt werden -> Da dies aber eh eine schlechte Möglichkeit ist Gleichungen zu lösen,
+        soll dies noch eingebaut werden?
+
+    Aufgabe 3:
+        Passt die Lösung so?
+        Oder wär die Iteration über den String und das Anhängen jeden zweiten Buchstabens die erwünschtere?
