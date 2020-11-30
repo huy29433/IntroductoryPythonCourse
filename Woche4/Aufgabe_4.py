@@ -10,7 +10,7 @@ def main():
         length_of_rod -= piece
     sides_of_triangle.append(length_of_rod)
 
-    sides_of_triangle.sort()
+    sides_of_triangle.sort()        # Sorgt dafür dass [0] und [1] die kürzesten Seiten sind
 
     if (sides_of_triangle[0] + sides_of_triangle[1]) > sides_of_triangle[2]:
         return True
