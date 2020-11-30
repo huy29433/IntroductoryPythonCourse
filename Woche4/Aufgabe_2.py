@@ -14,7 +14,7 @@ def main():
     for letter in string:
         count_of_letters[letter] += 1
 
-    for letter in sorted(count_of_letters):
+    for letter in sorted(count_of_letters):         # Alphabetisch (?) sortierte Ausgabe. Groß und Kleinschreibung extra sortiert
         print(f"'{letter}'{count_of_letters[letter]:5}")
 
 
