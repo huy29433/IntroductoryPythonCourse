@@ -56,7 +56,7 @@ class Spectroscopy:
 
     def findMinima2(self, genauigkeit = 5):
         # TODO: Noch nicht ganz korrekt, findet erstes Minima nicht größte
-
+        
         val_before = 0
         for id, intensity in enumerate(self.intensities):
             if id > len(self.intensities) - genauigkeit:
@@ -65,6 +65,8 @@ class Spectroscopy:
                 val_before = self.intensities[i-genauigkeit]
                 val_actual = self.intensities[i]
 
+                # Linda: ab hier bis 77 sollte glaube ich auch eingerückt sein
+                
             if val_actual > val_before and dir == -1:
                 self.minima[self.wavenumbers[id-genauigkeit//2]] = self.intensities[id-genauigkeit//2]
                 print(self.wavenumbers[id-genauigkeit//2])
